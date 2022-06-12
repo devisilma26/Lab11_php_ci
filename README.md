@@ -54,19 +54,19 @@ Refresh kembali browser, sehingga akan tampilkan hasilnya.
 
 ![artikel](img/artikel.png)
 
-## MEMBUAT TAMPILAN DETAIL ARTIKEL
+## 7.MEMBUAT TAMPILAN DETAIL ARTIKEL
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
 
 ![app_controller](img/App.controller.png)
 
-## MEMBUAT ROUTING UNTUK ARTIKEL DETAIL
+## 8.MEMBUAT ROUTING UNTUK ARTIKEL DETAIL
 Buka kembali file app/config/routtes.php, kemudian tambahkan routing untuk artikel detail.
 ![routing](img/routing.png)
 
 Refresh kembali browsser, lalu pilih satu artikel sehingga akan ditampilkan hasilnya.
 ![artikelpertama](img/atrikel.pertama.png)
 
-## MEMBUAT MENU ADMIN
+## 9.MEMBUAT MENU ADMIN
 Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
 ![artikel](img/artikel.php.png)
 
@@ -80,4 +80,57 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel
 
 ![admin.artikel](img/admin.artikel.png)
 
+## 10.MEMBUAT DATA ARTIKEL
 
+Tambahkan fungsi/method baru pada controller artikel dengan nama add().
+
+![add1](img/add1.png)
+
+Kemudian buat view untuk form tambah dengan nama form_add.php
+![add2](img/add2.png)
+
+Refresh browser lalu klik tombol ubah
+![ubah](img/ubah.png)
+
+## 11.MENGHAPUS DATA
+
+Tambahkan fungsi/method baru pada controller artikel dengan nama delete().
+
+![delete](img/delete.png)
+
+Maka bila dijalankan dibrowsur akan muncul seperti :
+
+![hapus](img/hapus1.png)
+
+## PERTANYAAN DAN TUGAS
+
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+
+- Bagian Dirubah
+Merubah tampilan Dashbord yang sebelumnya menampilkan id dirubah dengan menampilkan nomor urut dengan looping.
+
+![tugas](img/tugas1.png)
+
+Maka hasilnya sebagai berikut :
+
+![tugas2](img/tugas2.png)
+
+- Merubah Tampilan Artikel Yang sebelumnya Bagian judul berwarna biru di rubah dengan warna hitam dan menghilangkan garis bawah, dan ketika curous didekatkan ke dalam judul maka akan berubah warna menjadi biru.
+Pada bagian inde.php deberikan nama class baru dengan nama class="artikel_index"
+
+![index](img/index.php.png)
+
+Selanjutnya menambahkan css untuk index.php
+![tugas3](img/tugas-3.png)
+
+text-decoration: none; untuk menghilangkan garis bawah pada link judul. color: black; Untuk memberikan warna pada text menjadi hitam
+
+a:hover dan color: #0e55a0; ketika cursor mendekat ke bagian judul makan judul akan berubah menjadi biru.
+
+![artikel](img/artikel.png)
+
+--------------------------------------------------------------------------------------------------------------------
+                                                    SELESAI
+                                            SEKIAN DAN TERIMAKASIH
+--------------------------------------------------------------------------------------------------------------------
+                                                @devisilma26
