@@ -1,0 +1,5 @@
+|   DEVI SILMA YUNIAR   |   312010458   |
+|      PERTEMUAN 14     |  PRAKTIMUM 13 |
+
+
+# PRAKTIKUM 13
