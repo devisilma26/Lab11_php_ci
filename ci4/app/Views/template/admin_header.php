@@ -14,6 +14,6 @@
         <a href="<?= base_url('index.php/admin/artikel');?>" class="active">Dasboard</a>
         <a href="<?= base_url('/artikel');?>">Artikel</a>
         <a href="<?= base_url('index.php/admin/artikel/add');?>">Tambah Artikel</a>
-        
+        <a href="<?= base_url('/user/logout');?>">logout</a>
     </nav>
     
