@@ -1,7 +1,9 @@
 # PRAKTIKUM 13 Framework lanjutan (Modul Login)
 
 Nama : Devi Silma Yuniar
+
 NIM  : 312010458
+
 Kelas : TI.20.A2
 
 ## langkah-langkah praktikum
@@ -57,6 +59,7 @@ Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebu
 
 ## 9.) FUNGSI LOGOUT
 Tambahkan method logout pada Controller User seperti berikut:
+
 ![14](img/14.png)
 
 ## PERTANYAAN DAN TUGAS
@@ -64,16 +67,20 @@ Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan impr
 
 ## Membuat tombol home pada bagian login
 pada bagian views\user\login.php tembahkan tombol untuk kembali ketampilan awal.
+
 ![15](img/15.png)
 
 tampilan
+
 ![16](img/16.png)
 
 ## Membuat tombol logout
 memberikan tombol logout pada bagian admin
+
 ![16](img/17.png)
 
 tampilan
+
 ![trakhir](img/18.png)
 
 --------------------------------------------------------------------------------------------------------------------
