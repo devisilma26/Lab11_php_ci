@@ -1,5 +1,9 @@
 <?= $this->include('template/admin_header'); ?>
 <link rel="stylesheet" href="<?= base_url('/style.css'); ?>">
+<form method="get" class="form-search">
+<input type="text" name="q" value="<?= $q; ?>" placeholder="Cari data">
+<input type="submit" value="Cari" class="btn btn-primary">
+</form>
 <table class="table">
   <thead>
     <tr>
@@ -39,4 +43,9 @@
       <th>AKsi</th>
     </tr>
   </tfoot>
-</table> <?= $this->include('template/admin_footer'); ?>
+</table> 
+<div class="combo">
+  <?= $pager->only(['q'])->links(); ?>
+</div>
+
+<?= $this->include('template/admin_footer'); ?>

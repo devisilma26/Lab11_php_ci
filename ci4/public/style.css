@@ -253,6 +253,11 @@ padding: 8px 20px;
     font-size: 11pt;
 }
 
+.add .file{
+    margin-bottom:20px ;
+    
+}
+
 
 .add input[type=submit]{
     padding: 10px 0px;
@@ -444,12 +449,83 @@ padding: 8px 20px;
 }
 
 .login-wrapper a{
-    color:white;
+    font-size: 12pt;
+    padding: 4px 30px;
+    background-color: rgb(50, 115, 212);
+    color: white;
+    margin-left: 30px;
+}
+
+.login-wrapper a:hover{
+    background-color: #2466ac;
+    cursor: pointer;
 }
 
 
 
+/* Bagian Akhir */
+/* .combo ul{
+    overflow-x: scroll;
+    display: inline-block;
+    list-style-type: none;
+    background-color: white;
+} */
 
+.combo nav{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left:50px ;
+}
 
+.combo ul li{
+    display: inline-block;
+    background-color: #666464;
+    border-radius: 5px;
+}
 
+.pagination {
+    display: inline-block;
+}
 
+.combo .pagination .active{
+    background-color: #0e55a0;
+    border-radius: 5px;
+    color: white;
+}
+
+.pagination a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(136, 133, 133);
+    border-radius: 5px;
+}
+
+.combo .pagination a:hover{
+    background-color: #1f548c;
+    color: white;
+}
+
+/* Cari Admin */
+
+.form-search{
+    margin: 25px 50px;
+}
+
+.form-search input{
+    padding: 5px 5px;
+}
+
+.form-search .btn{
+    width: 60px;
+    height: 30px ;
+    border-radius: 5px;
+    background-color: #0d6cd1;
+    border: none;
+    color: white;
+}
+
+.form-search .btn:hover{
+    background-color: #5a6979;
+    cursor: pointer;
+}
